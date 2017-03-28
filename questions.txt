@@ -1,0 +1,6 @@
+questions
+
+1. Generally, the curve shows increasing in accuracy on test set value but the curve is very spikey at first time when I ran it.
+2. Around at 20~50%(at first trial), it is spikier than other range of values. There are less data used for testing so when accuracy was calculated it created larger impact on noise.
+3. I was able to get fairly smooth curve with logistic regression of 10**-2 and number of trial of 1000
+4. Decreasing the power of logistic regression curve gives smoother curve. 
